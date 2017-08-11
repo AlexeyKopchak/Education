@@ -3,10 +3,10 @@ var router  = require('./router');
 
 var port = 3000;
 
-function myServer(req, res){
+function myServer(myServerReq, myServerRes){
     
-    router.route(req, res);
-    res.end();
+    router.route(myServerReq, myServerRes);
+    myServerRes.end();
 }
 
 http.createServer(myServer).listen(port);
