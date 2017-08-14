@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server: express+mongodb(mongoose)",
+  "main": "server.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyKopchak/Education.git"
+  },
+  "author": "Akvelon/Kopchak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexeyKopchak/Education/issues"
+  },
+  "homepage": "https://github.com/AlexeyKopchak/Education#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6"
+  }
+}
